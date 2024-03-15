@@ -1,17 +1,10 @@
 /* header */
-.kakaohead{
-  width: auto;
-  height: 100px;
-  display: flex;
-  justify-content: center;
-}
-
 .kakaosub{
   width: 1080px;
   height: 100px;
   display: flex;
-  align-items: center;
   justify-content: space-between;
+  align-items: center;
 }
 
 .kakao-mn .main-menu{
@@ -44,7 +37,7 @@
 .teddybear{
   width: 1080px;
   height: inherit;
-  background-image: url("./kaka.img/main-bg3.png");
+  background-image: url("../images/main-bg3.png");
   background-size: cover;
   position: absolute;
   top: 172px;
@@ -231,7 +224,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background: white url("./kaka.img/home_map.png") no-repeat -12% 50%;
+  background: white url("../images/home_map.png") no-repeat -12% 50%;
 }
 
 .content-5 img{
@@ -271,6 +264,8 @@
   display: flex;
   justify-content: center;
 }
+
+
 
 .sky .moon h3{
   margin-top: 205px;
