@@ -9,7 +9,6 @@
 .kakaosub{
   width: 1080px;
   height: 100px;
-  /* background-color: orange; */
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -27,6 +26,7 @@
 .kakao-mn .main-menu li a{
   text-decoration: none;
   margin: 8x;
+  color: black;
 }
 
 .kakaohead .kakao-focus{
