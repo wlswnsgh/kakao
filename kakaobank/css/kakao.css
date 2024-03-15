@@ -183,19 +183,20 @@
 }
 
 .content-4 {  
+  margin-top: 32px;
   width: auto;
   height: 750px;
-  background-color: royalblue;
   display: flex;
   justify-content: center;
-  justify-content: space-around;
   align-items: center;
+  
 }
-
 
 .content-4 img{
   width: 492px;
   height: 408px;
+  margin-left: 140px;
+
 }
 
 .content-4 .week h3{
@@ -208,6 +209,7 @@
   font-size: 15px;
   line-height: 1.7;
   color: #666;
+  margin-top: 10px;
 }
 
 .content-4 button{
@@ -219,4 +221,66 @@
   border-radius: 10px;
   background-color: #f6f6f6;
   border: none;
+  margin-top: 56px;
+}
+
+.content-5 {  
+  margin-top: 32px;
+  width: auto;
+  height: 750px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: white url("../kaka.img/home_map.png") no-repeat -12% 50%;
+}
+
+.content-5 img{
+  width: 408px;
+  height: 715px;
+}
+
+.content-5 .conGRE{
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 1.35;
+  margin-left: 220px;
+}
+
+.content-5 .conGRE p{
+  margin-top: 24px;
+  font-size: 15px;
+  color: #666;
+  line-height: 1.7;
+}
+
+.content-5 button{
+  width: 258px;
+  height: 56px;
+  font-size: 16px;
+  background-color: #f6f6f6;
+  border-radius: 10px;
+  border: none;
+  margin-top: 56px;
+}
+
+.sky{
+  margin-top: 32px;
+  width: auto;
+  height: 930px;
+  background-color: skyblue;
+  display: flex;
+  justify-content: center;
+}
+
+.sky .moon h3{
+  margin-top: 263px;
+  text-align: center;
+}
+
+.sky .moon p{
+  text-align: center;
+}
+
+.sky .moon .gbtn{
+  text-align: center;
 }
