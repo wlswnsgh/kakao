@@ -6,11 +6,13 @@
   <title>kakaobank</title>
 
   <link href="https://cdn.jsdelivr.net/npm/reset-css@5.0.2/reset.min.css" rel="stylesheet">
-
   <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet">
-  
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
   <link rel="stylesheet" href="./css/kakao.css">
+
+  <script defer src="./kakao.js/kakao.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 </head>
 <body>
   <header>
@@ -149,17 +151,38 @@
         <p>프렌즈 디자인부터 멋스러운 블랙 컬러 카드까지 원하는 디자인과 기능을
         선택할 수 있다</p>
         <a href="#"><button>카카오뱅크 프렌즈 체크카드 ></button></a>
+      
+        <div class="promotion">
+          <div class="swiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+               <img src="images/card-1.png" alt="">
+               <a href="javascript:void(0)" class="btn"></a>
+              </div>
+              <div class="swiper-slide">
+               <img src="images/card-2.png" alt="">
+               <a href="javascript:void(0)" class="btn"></a>
+              </div>
+              <div class="swiper-slide">
+               <img src="images/card-3.png" alt="">
+               <a href="javascript:void(0)" class="btn"></a>
+              </div>
+              <div class="swiper-slide">
+               <img src="images/card-4.png" alt="">
+               <a href="javascript:void(0)" class="btn"></a>
+              </div>
+              <div class="swiper-slide">
+               <img src="images/card-5.png" alt="">
+               <a href="javascript:void(0)" class="btn"></a>
+              </div>
+            </div>
+            <div class="swiper-pagination"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+          </div>
+        </div>
       </div>
     </div>
   </section>
-
-  <section>
-    <img src="./images/card-1.png" alt="1">
-    <img src="./images/card-2.png" alt="2">
-    <img src="./images/card-3.png" alt="3">
-    <img src="./images/card-4.png" alt="4">
-    <img src="./images/card-5.png" alt="5">
-  </section>
-
   </body>
 </html>

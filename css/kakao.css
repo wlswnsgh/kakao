@@ -242,10 +242,11 @@ header{
   font-weight: bold;
   line-height: 1.35;
   padding-left: 220px;
+  position: relative;
 }
 
 .content-5 .conGRE p{
-  padding-top: 24px;
+  padding-top: 15px;
   font-size: 15px;
   color: #666;
   line-height: 1.7;
@@ -258,7 +259,9 @@ header{
   background-color: #f6f6f6;
   border-radius: 10px;
   border: none;
-  margin-top: 56px;
+  position: absolute;
+  top: 290px;
+
 }
 
 .sky{
@@ -268,6 +271,7 @@ header{
   background-color: skyblue;
   display: flex;
   justify-content: center;
+  
 }
 
 
@@ -319,6 +323,10 @@ header{
   justify-content: center;
 }
 
+.fren .ifren{
+  position: relative;
+}
+
 .fren .ifren h3{
   font-size: 40px;
   font-weight: bold;
@@ -333,15 +341,32 @@ header{
   line-height: 1.7;
 }
 
-.fren .ifren button{
-  display: block;
-  background-color: #f6f6f6;
-  width: 258px;
-  height: 56px;
-  margin-top: 15px;
-  margin-left: 25%;
-  border-radius: 10px;
-  border: none;
+.fren .ifren a{
   text-decoration: none;
 }
 
+.fren .ifren button{
+  display: block;
+  position: absolute;
+  background-color: #f6f6f6;
+  width: 258px;
+  height: 56px;
+  border-radius: 10px;
+  border: none;
+  right: 25%;
+  top: 43%;
+}
+
+.promotion {
+  overflow: hidden;
+  transition: height 0.4s;
+  position: absolute;
+  top: 55%;
+}
+.promotion .swiper {
+  width: 660px;
+  height: 500px;
+}
+.promotion .swiper-slide {
+  transition: 1s;
+}
