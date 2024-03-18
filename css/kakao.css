@@ -271,10 +271,8 @@ header{
   background-color: skyblue;
   display: flex;
   justify-content: center;
-  
+
 }
-
-
 
 .sky .moon h3{
   padding-top: 205px;
@@ -369,4 +367,67 @@ header{
 }
 .promotion .swiper-slide {
   transition: 1s;
+}
+
+
+.project-6{
+  width: auto;
+  height: auto;
+  margin-top: 200px;
+  background-color: #f9f9f9;
+  
+}
+
+.project-6 .fontcon h3{
+  text-align: center;
+  font-size: 50px;
+}
+
+.project-6 .fontcon p{
+  font-size: 100px;
+  text-align: center;
+}
+
+.project-6 .kaimg img{
+  width: 1020px;
+  height: 270px;
+  display: block;
+  margin: 0 auto;
+
+}
+
+.project-6 .textcon{
+  display: flex;
+  justify-content: center;
+}
+
+.project-6 .textcon li{
+  width: 255px;
+  height: 210px;
+  text-align: center;
+  padding-top: 40px;
+}
+
+.project-6 .textcon h3{
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.project-6 .textcon .txt{
+  color: #666;
+  font-size: 14px;
+  line-height: 23px;
+}
+
+footer{
+  background-color: #eee;
+}
+footer .foocon{
+  padding: 0 25%;
+}
+
+footer .foocon li a{
+  text-decoration: none;
+  color: #666;
+  
 }
