@@ -1,3 +1,6 @@
+body{
+  width: auto;
+}
 header{
   width: auto;
   display: flex;
@@ -60,14 +63,24 @@ header{
   padding-top: 20px;
 }
 
-.teddybear button{
+.teddybear .btno-1{
   width: 178px;
   height: 56px;
   border-radius: 12px;
   background-color: white;
   border: 1px solid rgba(255, 255, 255, 0.3);
-  margin-top: 30px;
+  margin-top: 50px;
 }
+
+.teddybear .btno-2{
+  width: 178px;
+  height: 56px;
+  border-radius: 12px;
+  background-color: white;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  margin: 50px 0 0 10px ;
+}
+
 
 .jo-content{
   padding-top: 75px;
@@ -96,7 +109,7 @@ header{
   line-height: 1.5;
 }
 
-.con-font button{
+.jo-content .btno-3{
   width: 258px;
   height: 56px;
   font-size: 16px;
@@ -124,15 +137,24 @@ header{
   line-height: 1.7;
 }
 
-.content-2 .confont-2 button{
+.content-2 .confont-2 .btno-4{
   width: 130px;
   height: 56px;
   border: none;
   font-size: 15px;
-  margin-top: 20px;
-  margin-right: 6px;
+  margin: 20px 0 0 0;
   border-radius: 10px;
 }
+
+.content-2 .confont-2 .btno-5{
+  width: 130px;
+  height: 56px;
+  border: none;
+  font-size: 15px;
+  margin: 20px 0 0 6px;
+  border-radius: 10px;
+}
+
 
 .content-2 .confont-2 img{
   padding-top: 30px;
@@ -170,7 +192,7 @@ header{
   font-size: 15px;
 }
 
-.content-3 .traveling button{
+.content-3 .traveling .btno-5{
   width: 258px;
   height: 56px;
   font-size: 16px;
@@ -209,7 +231,7 @@ header{
   padding-top: 10px;
 }
 
-.content-4 button{
+.content-4 .btno-6{
   width: 258px;
   height: 56px;
   font-size: 16px;
@@ -251,7 +273,7 @@ header{
   line-height: 1.7;
 }
 
-.content-5 button{
+.content-5 .conGRE .btno-7{
   width: 258px;
   height: 56px;
   font-size: 16px;
@@ -293,11 +315,11 @@ header{
   padding-top: 15px;
 }
 
-.sky .moon .gbtn button{
+.sky .moon .btno-8{
   width: 150px;
   height: 50px;
   text-align: center;
-  padding: 3px;
+  margin-right: 12px;
   border-radius: 10px;
   border: none;
   color: white;
@@ -340,7 +362,7 @@ header{
   text-decoration: none;
 }
 
-.fren .ifren button{
+.fren .ifren .btno-9{
   display: block;
   position: absolute;
   background-color: #f6f6f6;
