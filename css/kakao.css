@@ -35,18 +35,18 @@ header{
 .content{
   background-color: #ffef6b;
   width: 100%;
-  height: 720px;
+  height: 650px;
   display: flex;
   justify-content: center;
 }
 
 .teddybear{
   width: 1080px;
-  height: inherit;
+  height: 680px;
   background-image: url("../images/main-bg3.png");
   background-size: cover;
   position: absolute;
-  top: 172px;
+  top: 102px;
 }
 
 .content h3{
@@ -187,14 +187,12 @@ header{
   display: flex;
   justify-content: center;
   align-items: center;
-  
 }
 
 .content-4 img{
   width: 492px;
   height: 408px;
   padding-left: 140px;
-
 }
 
 .content-4 .week h3{
@@ -261,7 +259,6 @@ header{
   border: none;
   position: absolute;
   top: 290px;
-
 }
 
 .sky{
@@ -271,7 +268,6 @@ header{
   background-color: skyblue;
   display: flex;
   justify-content: center;
-
 }
 
 .sky .moon h3{
@@ -361,6 +357,7 @@ header{
   position: absolute;
   top: 55%;
 }
+
 .promotion .swiper {
   width: 660px;
   height: 500px;
@@ -369,13 +366,11 @@ header{
   transition: 1s;
 }
 
-
 .project-6{
   width: auto;
   height: auto;
   margin-top: 200px;
   background-color: #f9f9f9;
-  
 }
 
 .project-6 .fontcon h3{
@@ -393,7 +388,6 @@ header{
   height: 270px;
   display: block;
   margin: 0 auto;
-
 }
 
 .project-6 .textcon{
@@ -422,12 +416,47 @@ header{
 footer{
   background-color: #eee;
 }
+
+footer .ifmg{
+  display: flex;
+}
+
 footer .foocon{
+  width: 1320px;
   padding: 0 25%;
+  font-size: 17px;
 }
 
 footer .foocon li a{
   text-decoration: none;
   color: #666;
-  
+  content: "";
+  border-right: 1px solid #666 ;
+  padding-right: 10px;
 }
+
+footer .foocon .fotent{
+  padding-top: 10px;
+}
+
+footer .info{
+  padding: 0 25%;
+  padding-top: 20px;
+  font-size: 12px;
+}
+
+footer p{
+  padding: 0 25%;
+  font-size: 12px;
+  padding-top: 12px;
+}
+
+footer .ifmg .fmg-1 img{
+  width: 90px;
+  height: 50px;
+}
+
+footer .ifmg .fmg-1 span{
+  font-size: 25px;
+}
+
