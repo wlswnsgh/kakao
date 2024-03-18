@@ -154,6 +154,7 @@ header{
   padding-left: -220px;
   padding-right: 50px;
 }
+
 .content-3 .traveling h3{
   font-size: 40px;
   font-weight: bold;
@@ -415,10 +416,13 @@ header{
 
 footer{
   background-color: #eee;
+  width: 0 auto;
 }
 
 footer .ifmg{
   display: flex;
+  height: 100px;
+
 }
 
 footer .foocon{
@@ -443,6 +447,7 @@ footer .info{
   padding: 0 25%;
   padding-top: 20px;
   font-size: 12px;
+  width: 1320px;
 }
 
 footer p{
@@ -451,12 +456,22 @@ footer p{
   padding-top: 12px;
 }
 
-footer .ifmg .fmg-1 img{
-  width: 90px;
+footer .ifmg {
+  margin: 15px 0 0 25%;
+  width: 1320px;
+  justify-content: space-between;
+}
+
+footer .ifmg .ard{
+  display: flex;
+}
+
+footer .ifmg .ard img{
+  width: 70px;
   height: 50px;
 }
 
-footer .ifmg .fmg-1 span{
-  font-size: 25px;
+footer .ifmg .logo img{
+  width: 50px;
+  height: 50px;
 }
-
