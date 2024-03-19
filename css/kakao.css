@@ -1,38 +1,67 @@
-body{
-  width: auto;
-}
 header{
-  width: auto;
+  width: 100%;
+  height: 100px;
   display: flex;
   justify-content: center;
 }
 
-.kakaosub{
+header .main-menu{
+  display: inline-block;
+}
+
+header .ka{
   width: 1080px;
   height: 100px;
+  /* background-color: orange; */
   display: flex;
   justify-content: space-between;
   align-items: center;
-  
 }
-
-.kakao-mn .main-menu{
-  display: inline-block;
-}
-
-.kakao-mn .main-menu li{
-  display: inline-block;
-  padding: 10px;
-}
-
-.kakao-mn .main-menu li a{
+header .item_kakao{
   text-decoration: none;
-  margin: 8px;
   color: black;
 }
 
-.kakaohead .kakao-focus{
-  padding: 8px;
+header .item_kakao:hover{
+  text-decoration: underline;
+}
+
+header .kakao-mn > ul{
+  font-size: 20px;
+}
+
+header .kakao-mn > ul > li{
+  width: 100px;
+  margin: 0 15px;
+  text-align: center;
+  line-height: 2;
+  display: inline;
+}
+
+header .main-menu > .sumenu > .item_koko{
+  background-color: white;
+  font-size: 18px;
+  width: 100%;
+  height: auto;
+  display: none;
+  position: fixed;
+  left: 0;
+  z-index: 9;
+}
+
+header .inner h4{
+  font-size: 25px;
+  color: black;
+}
+
+header .sumenu:hover > .item_koko{
+  display: block;
+}
+
+header .main-menu .sumenu .item_koko > ul{
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
 }
 
 .content{
@@ -49,7 +78,8 @@ header{
   background-image: url("../images/main-bg3.png");
   background-size: cover;
   position: absolute;
-  top: 102px;
+  top: 100px;
+  z-index: 1;
 }
 
 .content h3{
@@ -491,9 +521,15 @@ footer .ifmg .ard{
 footer .ifmg .ard img{
   width: 70px;
   height: 50px;
+  padding-left: 4px;
 }
 
 footer .ifmg .logo img{
   width: 50px;
   height: 50px;
 }
+
+footer .ard > span{
+  padding: 20px 0 0 15px;
+}
+
