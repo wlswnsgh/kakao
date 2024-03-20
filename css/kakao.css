@@ -3,6 +3,8 @@ header{
   height: 100px;
   display: flex;
   justify-content: center;
+  position: fixed;
+  z-index: 10;
 }
 
 header .main-menu{
@@ -12,11 +14,12 @@ header .main-menu{
 header .ka{
   width: 1080px;
   height: 100px;
-  /* background-color: orange; */
+  /* background-color: white; */
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
+
 header .item_kakao{
   text-decoration: none;
   color: black;
@@ -42,6 +45,7 @@ header .main-menu > .sumenu > .item_koko{
   background-color: white;
   font-size: 18px;
   width: 100%;
+  height: 100px;
   height: auto;
   display: none;
   position: fixed;
@@ -78,7 +82,7 @@ header .main-menu .sumenu .item_koko > ul{
   background-image: url("../images/main-bg3.png");
   background-size: cover;
   position: absolute;
-  top: 100px;
+  top: 0;
   z-index: 1;
 }
 
@@ -100,15 +104,32 @@ header .main-menu .sumenu .item_koko > ul{
   background-color: white;
   border: 1px solid rgba(255, 255, 255, 0.3);
   margin-top: 50px;
+  position: relative;
 }
 
+section .google-play{
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  left: 1.5%;
+  bottom: 34.55%;
+}
 .teddybear .btno-2{
   width: 178px;
   height: 56px;
   border-radius: 12px;
   background-color: white;
   border: 1px solid rgba(255, 255, 255, 0.3);
-  margin: 50px 0 0 10px ;
+  margin: 50px 0 0 10px;
+  position: relative;
+}
+
+section .apple-logo{
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  left: 19.5%;
+  bottom: 34.55%;
 }
 
 
@@ -154,6 +175,13 @@ header .main-menu .sumenu .item_koko > ul{
   background-color: white;
   display: flex;
   justify-content: center;
+  position: relative;
+}
+
+.content-2 .confont-2{
+  
+  width: 1000px;
+  height: 750px;
 }
 .content-2 .confont-2 h3{
   padding-top: 150px;
@@ -185,13 +213,21 @@ header .main-menu .sumenu .item_koko > ul{
   border-radius: 10px;
 }
 
-
 .content-2 .confont-2 img{
   padding-top: 30px;
   width: 440px;
   height: 150px;
   display: block;
 }
+
+.content-2 .savings{
+  opacity: 1;
+  position: absolute;
+  width: 409px;
+  height: 722px;
+  right: 150px;
+}
+
 
 .content-3{
   padding-top: 32px;
@@ -415,6 +451,7 @@ header .main-menu .sumenu .item_koko > ul{
   width: 660px;
   height: 500px;
 }
+
 .promotion .swiper-slide {
   transition: 1s;
 }
@@ -532,4 +569,3 @@ footer .ifmg .logo img{
 footer .ard > span{
   padding: 20px 0 0 15px;
 }
-

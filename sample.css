@@ -22,7 +22,8 @@ header a{
 header .kakao-mn > ul{
   font-size: 20px;
   display: flex;
-  justify-content: center;
+  /* justify-content: center; */
+  
 }
 
 header .kakao-mn > ul > li{
@@ -33,6 +34,9 @@ header .kakao-mn > ul > li{
   
 }
 
+header .kakao-mn a{
+  height: 100px;
+}
 header .main-menu > .sumenu > .item_koko{
   background-color: white;
   font-size: 18px;
@@ -102,3 +106,23 @@ section .staticon .material-symbols-outlined{
   bottom: 0;
   left: 182px;
 } */
+
+.box {
+  width: 350px;
+  height: 350px;
+  background-color: blue;
+  margin: 12px;
+  line-height: 350px;
+  text-align: center;
+  font-size: 100px;
+  display: none;
+}
+
+.Click{
+  width: 80px;
+  height: 80px;
+  background-color: aqua;
+}
+.box.active{
+  display: block;
+}

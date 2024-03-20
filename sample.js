@@ -1,13 +1,13 @@
-const slowboxEl = document.querySelector('.slowbox');
-const staticonBtn = document.querySelector('.staticon');
-const staticonIcon = staticonBtn.querySelector('.material-symbols-outlined');
+const boxEl = document.querySelector('.box');
+const ClickEl = document.querySelector('.Click');
 
-staticonBtn.addEventListener('click', function() {
-    if (slowboxEl.classList.contains('state')) {
-        slowboxEl.classList.remove('state');
-        staticonIcon.textContent = 'stat_minus_1';
-    } else{
-        slowboxEl.classList.add('state');
-        staticonIcon.textContent = 'keyboard_control_key';
-    }
+ClickEl.addEventListener('click', function() {
+console.log('boxEl');
+
+if(boxEl.classList.contains('active')){
+    boxEl.classList.remove('active');
+} else {
+    boxEl.classList.add('active');
+}
 });
+

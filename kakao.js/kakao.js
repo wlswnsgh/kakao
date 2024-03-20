@@ -9,3 +9,15 @@ new Swiper('.promotion .swiper', {
     },
   });
 
+  const savingsEl = document.querySelector('.savings');
+  window.addEventListener('scroll', function () {
+    console.log(window.scrollY);
+    if (window.scrollY > 150) {
+      gsap.to(savingsEl, 1, {
+        opacity: 1,
+        x: -100
+      });
+    } else { 
+
+    }
+  });
