@@ -221,13 +221,12 @@ section .apple-logo{
 }
 
 .content-2 .savings{
-  opacity: 1;
+  opacity: 0;
   position: absolute;
   width: 409px;
   height: 722px;
-  right: 150px;
+  right: 250px;
 }
-
 
 .content-3{
   padding-top: 32px;
@@ -238,9 +237,15 @@ section .apple-logo{
   justify-content: center;
 }
 
+.content-3 .map-3{
+  display: flex;
+  justify-content: space-between;
+  width: 990px;
+}
+
 .content-3 img{
-  padding-left: -220px;
-  padding-right: 50px;
+  width: 409px;
+  height: 722px;
 }
 
 .content-3 .traveling h3{
@@ -278,10 +283,16 @@ section .apple-logo{
   align-items: center;
 }
 
+.content-4 .map-4{
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  width: 990px;
+}
+
 .content-4 img{
   width: 492px;
   height: 408px;
-  padding-left: 140px;
 }
 
 .content-4 .week h3{
@@ -312,23 +323,31 @@ section .apple-logo{
 .content-5 {  
   padding-top: 32px;
   width: auto;
-  height: 750px;
+  height: 600px;
   display: flex;
   justify-content: center;
-  align-items: center;
   background: white url("../images/home_map.png") no-repeat -12% 50%;
 }
 
-.content-5 img{
+.content-5 .map-5{
+  display: flex;
+  justify-content: center;
+  width: 1080px;
+}
+.content-5 .map-5 .foreig{
   width: 408px;
   height: 715px;
+  position: absolute;
+  opacity: 0;
+  left: 450px;
+  top: 4000px;
 }
 
 .content-5 .conGRE{
   font-size: 40px;
   font-weight: bold;
   line-height: 1.35;
-  padding-left: 220px;
+  padding-left: 530px;
   position: relative;
 }
 

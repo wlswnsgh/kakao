@@ -12,12 +12,27 @@ new Swiper('.promotion .swiper', {
   const savingsEl = document.querySelector('.savings');
   window.addEventListener('scroll', function () {
     console.log(window.scrollY);
-    if (window.scrollY > 150) {
-      gsap.to(savingsEl, 1, {
+    if (window.scrollY > 1141) {
+      gsap.to(savingsEl, 0.5, {
         opacity: 1,
         x: -100
       });
     } else { 
 
     }
+
+  });
+
+  const foreigEl = document.querySelector('.foreig');
+  window.addEventListener('scroll', function () {
+    console.log(window.scrollY);
+    if (window.scrollY > 3086) {
+      gsap.to(foreigEl, 1, {
+        opacity: 1,
+        y: -300
+      });
+    } else { 
+
+    }
+
   });
