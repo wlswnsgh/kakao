@@ -25,7 +25,6 @@ new Swiper('.promotion .swiper', {
 
   const foreigEl = document.querySelector('.foreig');
   window.addEventListener('scroll', function () {
-    console.log(window.scrollY);
     if (window.scrollY > 3086) {
       gsap.to(foreigEl, 1, {
         opacity: 1,
@@ -34,5 +33,16 @@ new Swiper('.promotion .swiper', {
     } else { 
 
     }
+
+  });
+
+  const skyEl = document.querySelector('.sky');
+  window.addEventListener('scroll', function() {
+
+    if (window.scrollY > 4336.25) {
+      skyEl.classList.add('ative');
+      } else {
+
+      }
 
   });
