@@ -36,11 +36,14 @@ new Swiper('.promotion .swiper', {
 
   });
 
-  const skyEl = document.querySelector('.sky');
+  const skyEl = document.querySelector('.skyul');
   window.addEventListener('scroll', function() {
 
     if (window.scrollY > 4336.25) {
       skyEl.classList.add('ative');
+      gsap.to(skyEl, 1,{
+        opacity: 1,
+      });
       } else {
 
       }
